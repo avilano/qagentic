@@ -26,11 +26,11 @@ Every skill is:
 
 | Skill Name | Tier / Category | Description | Status |
 | :--- | :--- | :--- | :--- |
-| [**`qa-epic-scoping`**](./skills/qa-epic-scoping/) | Scoping & Readiness | Produces a 5–10 minute read-only **Epic QA Brief** detailing motivation, user flows, verbatim AC, affected surfaces, test data, and open questions before planning coverage. | ✅ Ready |
-| **`qa-ticket-readiness`** | Quality Gates | Audits user stories and tasks against the Definition of Ready (DoR), verifying AC completeness and test data clarity with dry-run protection. | 🚧 Roadmap |
-| **`playwright-code-review`** | Automated Testing | Specialized static analysis for Playwright E2E suites, auditing test isolation, database leakage, locator flakiness, and hardcoded timeouts. | 🚧 Roadmap |
-| **`qa-test-plan-generator`** | Strategy | Automatically breaks down epics and stories into positive, negative, edge-case, and boundary test scenarios formatted in standard Markdown or TMS schemas. | 🚧 Roadmap |
-| **`qa-bug-retrospective`** | Intelligence | Discovers escaped production bug clusters, performs Root Cause Analysis (RCA), and generates automated test tasks to prevent regressions. | 🚧 Roadmap |
+| [**`qa-epic-scoping`**](./skills/qa-epic-scoping/) | Scoping & Discovery | Produces a 5–10 minute read-only **Epic QA Brief** detailing motivation, user flows, verbatim AC, affected surfaces, test data, and open questions before planning coverage. | ✅ Ready |
+| [**`qa-ticket-readiness`**](./skills/qa-ticket-readiness/) | Quality Gates (DoR) | Audits user stories, bug reports, and QA tasks against the Definition of Ready (DoR), verifying AC completeness, testability, and edge cases with dry-run protection. | ✅ Ready |
+| [**`playwright-code-review`**](./skills/playwright-code-review/) | Test Automation | Specialized static analysis for Playwright E2E suites on Git diffs or GitHub PRs, auditing POM encapsulation, test isolation, anti-flakiness, and locator resilience. | ✅ Ready |
+| [**`qa-test-plan-generator`**](./skills/qa-test-plan-generator/) | Test Strategy | Automatically breaks down epics and stories into positive, negative, edge-case, boundary, and RBAC test matrices with pluggable TMS export (Qase, TestRail, Jira). | ✅ Ready |
+| [**`qa-regression-retrospective`**](./skills/qa-regression-retrospective/) | Quality Intelligence | Audits escaped production bug clusters, performs Root Cause Analysis (RCA), evaluates whether fix PRs added regression-preventing tests, and drafts QA test tasks. | ✅ Ready |
 
 ---
 
